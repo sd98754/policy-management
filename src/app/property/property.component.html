@@ -1,0 +1,108 @@
+<div class ="errorcontainer" *ngIf="message" align="center">
+  <div align="right">
+    <form (ngSubmit)="onLogout()">
+      <button class="btn-grad-error"type="submit">logout</button>
+    </form>
+  </div>
+  <h1 align="center">Business Property Details</h1>
+  <br> <br>
+  <h3 align="center">{{message}}</h3>
+    
+    <img align="center" src="../../assets/images/property-not-found.png">
+    <div align="center">
+      <br> <br>
+      <form (ngSubmit)="onBack()">
+        <button type="submit">Back</button>
+      </form>
+      <br>
+      <br><br><br><br><br>
+    </div>
+</div>
+
+<div class="cont" *ngIf="property" align="center">
+  <div align="right">
+    <form (ngSubmit)="onLogout()">
+      <button class="btn-grad"type="submit">logout</button>
+    </form>
+  </div>
+    <h1>Business Property Details</h1>
+    
+    <div class="tab-cont">
+      <table class="table table-striped table-hover">
+      <tr><td>Property ID:</td>
+        <td>
+        {{property.id}}
+    </td>
+      </tr>
+      <tr><td>Business ID:</td>
+        <td>
+        {{property.businessId}}
+    </td>
+      </tr>
+      <tr><td>Consumer ID:</td>
+        <td>
+        {{property.consumerId}}
+    </td>
+      </tr>
+      <tr><td>Insurance Type:</td>
+        <td>
+        {{property.insurancetype}}
+    </td>
+      </tr>
+      <tr><td>Property Type:</td>
+        <td>
+        {{property.propertytype}}
+    </td>
+      </tr>
+      <tr><td>Building Sqft:</td>
+        <td>
+        {{property.buildingsqft}}
+    </td>
+      </tr>
+      <tr><td>Building Type:</td>
+        <td>
+        {{property.buildingtype}}
+    </td>
+      </tr>
+      <tr><td>Building Storeys:</td>
+        <td>
+        {{property.buildingstoreys}}
+    </td>
+      </tr>
+      <tr><td>Building Age:</td>
+        <td>
+        {{property.buildingage}}
+    </td>
+      </tr>
+      <tr><td>Property Value:</td>
+        <td>
+        {{property.propertyvalue}}
+    </td>
+      </tr>
+       <tr><td>Cost of the Asset:</td>
+        <td>
+        {{property.costoftheasset}}
+    </td>
+      </tr>
+      <tr><td>Salvage Value:</td>
+        <td>
+        {{property.salvagevalue}}
+    </td>
+      </tr>
+      <tr><td>Useful Life of the Asset:</td>
+        <td>
+        {{property.usefullifeoftheAsset}}
+    </td>
+      </tr>
+       
+    </table>
+    <br>
+    <br>
+    <div align="center">
+      <form (ngSubmit)="onBack()">
+        <button type="submit" class="btn btn-secondary">back</button>
+      </form>
+    </div>
+  </div>  
+    </div>
+    

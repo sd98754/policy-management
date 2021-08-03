@@ -1,0 +1,151 @@
+
+<div class ="errorcontainer" *ngIf="message" align="center">
+  <div align="right">
+    <form (ngSubmit)="onLogout()">
+      <button class="btn-grad-error"type="submit">logout</button>
+    </form>
+  </div>
+  <h1 align="center">Consumer Business Details</h1>
+  <br> <br>
+  <h3 align="center">{{message}}</h3>
+    
+    <img align="center" src="../../assets/images/user-not-found.png"> 
+    <div align="center">
+      <br> <br>
+      <form (ngSubmit)="onBack()">
+        <button type="submit">Back</button>
+      </form>
+      <br>
+      <br><br><br><br><br>
+    </div>
+</div>
+
+<div class="cont" *ngIf="consumerBusinessDetails" align="center">
+  <div align="right">
+    <form (ngSubmit)="onLogout()">
+      <button class="btn-grad"type="submit">logout</button>
+    </form>
+  </div>
+    <h1>Consumer Business Details</h1>
+    <div class="tab-cont">
+    <table class="table table-striped table-hover">
+     
+      <tr><td>First Name:</td>
+        <td>
+            {{consumerBusinessDetails.firstname}} 
+        </td>
+      </tr>
+      <tr><td>Last Name:</td>
+        <td>
+            {{consumerBusinessDetails.lastname}}
+        </td>
+      </tr>
+      <tr><td>DOB:</td>
+        <td>
+            {{consumerBusinessDetails.dob}}
+        </td>
+      </tr>
+      <tr><td>Business Name:</td>
+        <td>
+            {{consumerBusinessDetails.businessname}}
+        </td>
+      </tr>
+      <tr><td>Pan Details:</td>
+        <td>
+            {{consumerBusinessDetails.pandetails}}
+        </td>
+      </tr>
+      <tr><td>Email:</td>
+        <td>
+            {{consumerBusinessDetails.email}}
+        </td>
+      </tr>
+      <tr><td>Phone:</td>
+        <td>
+            {{consumerBusinessDetails.phone}}
+        </td>
+      </tr>
+      <tr><td>Website:</td>
+        <td>
+            {{consumerBusinessDetails.website}}
+        </td>
+      </tr>
+      <tr><td>Business Qverview:</td>
+        <td>
+            {{consumerBusinessDetails.businessoverview}}
+        </td>
+      </tr>
+      <tr><td>Validity:</td>
+        <td>
+            {{consumerBusinessDetails.validity}}
+        </td>
+      </tr>
+      <tr><td>Agent Name:</td>
+        <td>
+            {{consumerBusinessDetails.agentname}}
+        </td>
+      </tr>
+      <tr><td>Agent Id:</td>
+        <td>
+            {{consumerBusinessDetails.agentid}}
+        </td>
+      </tr>
+      <tr><td>Business ID:</td>
+        <td>
+            {{consumerBusinessDetails.businessid}}
+        </td>
+      </tr>
+      <tr><td>Consumer ID:</td>
+        <td>
+            {{consumerBusinessDetails.consumerId}}
+        </td>
+      </tr>
+      <tr><td>Business Category:</td>
+        <td>
+            {{consumerBusinessDetails.businesscategory}}
+        </td>
+      </tr>
+      <tr><td>Business Type:</td>
+        <td>
+            {{consumerBusinessDetails.businesstype}}
+        </td>
+      </tr>
+      <tr><td>Business Turn Over:</td>
+        <td>
+            {{consumerBusinessDetails.businessturnover}}
+        </td>
+      </tr>
+      <tr><td>Capital Invested:</td>
+        <td>
+            {{consumerBusinessDetails.capitalinvested}}
+        </td>
+      </tr>
+      <tr><td>Total Employees:</td>
+        <td>
+            {{consumerBusinessDetails.totalemployees}}
+        </td>
+      </tr>
+      <tr><td>Business Value:</td>
+        <td>
+            {{consumerBusinessDetails.businessvalue}}
+        </td>
+      </tr>
+      <tr><td>Business Age:</td>
+        <td>
+            {{consumerBusinessDetails.businessage}}
+        </td>
+      </tr>
+     
+    </table>
+  </div>
+    <br><br>
+    <div align="center">
+      <form (ngSubmit)="onBack()">
+        <button type="submit" class="btn btn-secondary">Back</button>
+      </form>
+    </div>
+    </div>
+    <br>
+    <br>
+  
+    

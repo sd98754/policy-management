@@ -1,0 +1,348 @@
+2021-07-28_22-19-48 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.consumer.ConsumerMicroserviceApplicationTests], using SpringBootContextLoader
+2021-07-28_22-19-48 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.consumer.ConsumerMicroserviceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-28_22-19-48 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.consumer.ConsumerMicroserviceApplicationTests]: ConsumerMicroserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-28_22-19-48 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.consumer.ConsumerMicroserviceApplication for test class com.cognizant.pas.consumer.ConsumerMicroserviceApplicationTests
+2021-07-28_22-19-48 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-28_22-19-48 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22da200e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f26425b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@f03ee8f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40dd552c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33f4c769, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ebd6fd6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5a8718, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7404ddca, org.springframework.test.context.event.EventPublishingTestExecutionListener@615e83ac, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4438938e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e50ae56, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1c68d0db, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@9be7319, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@91a2543, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@42730828]
+2021-07-28_22-19-50 [main] INFO  c.c.p.c.ConsumerMicroserviceApplicationTests - Starting ConsumerMicroserviceApplicationTests using Java 15.0.2 on LAPTOP-3812AT6E with PID 31872 (started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_22-19-50 [main] INFO  c.c.p.c.ConsumerMicroserviceApplicationTests - No active profile set, falling back to default profiles: default
+2021-07-28_22-19-50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-07-28_22-19-50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_22-19-50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 5 JPA repository interfaces.
+2021-07-28_22-19-50 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=bf208c13-ca8c-379a-876a-64a28f0ba115
+2021-07-28_22-19-50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_22-19-50 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_22-19-50 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-28_22-19-50 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-28_22-19-50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-28_22-19-50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-28_22-19-50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_22-19-50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_22-19-50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-19-50 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_22-19-50 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_22-19-50 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-19-50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_22-19-50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_22-19-50 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_22-19-50 [main] INFO  c.c.p.c.ConsumerMicroserviceApplicationTests - Started ConsumerMicroserviceApplicationTests in 14.351 seconds (JVM running for 19.171)
+2021-07-28_22-20-04 [main] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 31872 (started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_22-20-04 [main] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_22-20-04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_22-20-04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2021-07-28_22-20-04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=922e3753-1285-36ae-b046-9cb9c970303b
+2021-07-28_22-20-04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_22-20-04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_22-20-04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_22-20-04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_22-20-04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_22-20-04 [main] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_22-20-04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1519 ms
+2021-07-28_22-20-04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-07-28_22-20-04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-07-28_22-20-04 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_22-20-04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_22-20-04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_22-20-04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_22-20-04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-20-04 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_22-20-04 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_22-20-04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_22-20-04 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_22-20-04 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_22-20-04 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_22-20-04 [main] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 3.518 seconds (JVM running for 22.747)
+2021-07-28_22-20-04 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.consumer.controller.ConsumerControllerTests], using SpringBootContextLoader
+2021-07-28_22-20-04 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.consumer.controller.ConsumerControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-28_22-20-04 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.consumer.controller.ConsumerControllerTests]: ConsumerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-28_22-20-04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.consumer.ConsumerMicroserviceApplication for test class com.cognizant.pas.consumer.controller.ConsumerControllerTests
+2021-07-28_22-20-04 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-28_22-20-04 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@339da0f0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53e94814, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@21dd2adb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ce0369, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e0ab9a0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47baf39d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@f798243, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fdc1d8e, org.springframework.test.context.event.EventPublishingTestExecutionListener@74106c6c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64a65f68, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@270eb225, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@38a1eb27, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f258353, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19aec8c0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4b63de4a]
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerControllerTests - Starting ConsumerControllerTests using Java 15.0.2 on LAPTOP-3812AT6E with PID 31872 (started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerControllerTests - No active profile set, falling back to default profiles: default
+2021-07-28_22-20-07 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-07-28_22-20-07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2021-07-28_22-20-07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerControllerTests - Started ConsumerControllerTests in 1.552 seconds (JVM running for 24.387)
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start createBusinessProperty
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusinessByPolicy
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start updateBusinessProperty
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerProperty
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start updateBusinessProperty
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerProperty
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusinessByPolicy
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - End viewConsumerBusinessByPolicy
+2021-07-28_22-20-07 [main] INFO  c.c.p.c.c.ConsumerController - Start createBusinessProperty
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.consumer.exception.GlobalExceptionHandlerTest], using SpringBootContextLoader
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.consumer.exception.GlobalExceptionHandlerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.consumer.exception.GlobalExceptionHandlerTest]: GlobalExceptionHandlerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.consumer.ConsumerMicroserviceApplication for test class com.cognizant.pas.consumer.exception.GlobalExceptionHandlerTest
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2519a7d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6bcdc5c6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@475e9be8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@77945728, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f5b4124, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1abd54fc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@290f0d98, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7c773286, org.springframework.test.context.event.EventPublishingTestExecutionListener@39e00e4d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@490ab739, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1838104d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5d1ef2ce, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@64351d46, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@789add86, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@20f810a0]
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.consumer.exception.ExceptionDetailsTest], using SpringBootContextLoader
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.consumer.exception.ExceptionDetailsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.consumer.exception.ExceptionDetailsTest]: ExceptionDetailsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.consumer.ConsumerMicroserviceApplication for test class com.cognizant.pas.consumer.exception.ExceptionDetailsTest
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ad5579f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c1c10b5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5696bfa4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44e31e89, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@246ad025, org.springframework.test.context.support.DirtiesContextTestExecutionListener@683fe5a5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@bb71c99, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57fc4c30, org.springframework.test.context.event.EventPublishingTestExecutionListener@25e54512, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32609ec6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1000fc7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@34a84e1b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3b6a4049, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d4a6f4c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@cb52715]
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.consumer.exception.AuthorizationExceptionTest], using SpringBootContextLoader
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.consumer.exception.AuthorizationExceptionTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-28_22-20-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.consumer.exception.AuthorizationExceptionTest]: AuthorizationExceptionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.consumer.ConsumerMicroserviceApplication for test class com.cognizant.pas.consumer.exception.AuthorizationExceptionTest
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-28_22-20-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@660e4d64, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6fd3f4cc, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@15f760e4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@269dd863, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32ecd4b9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@426933bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c379b55, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@24a10870, org.springframework.test.context.event.EventPublishingTestExecutionListener@70bc4941, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7bc37039, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2bfea127, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b0dea0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15546956, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7576917d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2bdff16d]
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.e.AuthorizationExceptionTest - Starting AuthorizationExceptionTest using Java 15.0.2 on LAPTOP-3812AT6E with PID 31872 (started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.e.AuthorizationExceptionTest - No active profile set, falling back to default profiles: default
+2021-07-28_22-20-10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_22-20-10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2021-07-28_22-20-10 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=bf208c13-ca8c-379a-876a-64a28f0ba115
+2021-07-28_22-20-10 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_22-20-10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-07-28_22-20-10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-07-28_22-20-10 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_22-20-10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_22-20-10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-20-10 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_22-20-10 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_22-20-10 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-10 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_22-20-10 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_22-20-10 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.e.AuthorizationExceptionTest - Started AuthorizationExceptionTest in 3.505 seconds (JVM running for 28.846)
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - Start calPropertyValue
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - Start calPropertyValue
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - End calPropertyValue
+2021-07-28_22-20-10 [main] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-07-28_22-20-10 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-07-28_22-21-24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-07-28_22-21-24 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 32440 (C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_22-21-24 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 5 JPA repository interfaces.
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_22-21-24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_22-21-24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_22-21-24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_22-21-24 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3865 ms
+2021-07-28_22-21-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-28_22-21-24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_22-21-24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_22-21-24 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-28_22-21-24 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-28_22-21-24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_22-21-24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-21-24 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-21-24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_22-21-24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_22-21-24 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_22-21-24 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_22-21-24 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_22-21-24 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 10.335 seconds (JVM running for 11.539)
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 132 ms
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start checkBusinessEligibility
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End checkBusinessEligibility
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start createConsumerBusiness Service
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End createConsumerBusinessService
+2021-07-28_22-21-24 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - End createConsumerBusiness
+2021-07-28_22-21-24 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_22-21-24 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_22-21-24 [Thread-1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-28_22-21-24 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-28_22-21-24 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-28_23-26-01 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 32440 (C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_23-26-01 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 5 JPA repository interfaces.
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_23-26-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-26-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_23-26-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_23-26-01 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2143 ms
+2021-07-28_23-26-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-07-28_23-26-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_23-26-01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_23-26-01 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_23-26-01 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_23-26-01 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_23-26-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_23-26-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_23-26-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_23-26-01 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_23-26-01 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 4.798 seconds (JVM running for 3883.416)
+2021-07-28_23-26-01 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-07-28_23-28-50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-07-28_23-28-50 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 23776 (C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_23-28-50 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 5 JPA repository interfaces.
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_23-28-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-28-50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_23-28-50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_23-28-50 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3034 ms
+2021-07-28_23-28-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-28_23-28-50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_23-28-50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_23-28-50 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-28_23-28-50 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-28_23-28-50 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_23-28-50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_23-28-50 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_23-28-50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-28-50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_23-28-50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_23-28-50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_23-28-50 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_23-28-50 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 8.975 seconds (JVM running for 9.998)
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start checkBusinessEligibility
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End checkBusinessEligibility
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start createConsumerBusiness Service
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End createConsumerBusinessService
+2021-07-28_23-28-50 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - End createConsumerBusiness
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - Start updateConsumerBusinessService
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - End updateConsumerBusinessService
+2021-07-28_23-28-50 [http-nio-8200-exec-3] INFO  c.c.p.c.c.ConsumerController - End updateConsumerBusiness
+2021-07-28_23-28-50 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-28_23-28-50 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_23-28-50 [Thread-1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-28_23-28-50 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-28_23-28-50 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-28_23-31-57 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 23776 (C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_23-31-57 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_23-31-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-31-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_23-31-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_23-31-57 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 793 ms
+2021-07-28_23-31-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-07-28_23-31-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_23-31-57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_23-31-57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_23-31-57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_23-31-57 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_23-31-57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_23-31-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_23-31-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_23-31-57 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_23-31-57 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 2.148 seconds (JVM running for 190.774)
+2021-07-28_23-31-57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-07-28_23-32-23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-07-28_23-32-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 34544 (C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\back-up-mine-j\Consumer-Microservice)
+2021-07-28_23-32-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 5 JPA repository interfaces.
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-07-28_23-32-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-32-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28_23-32-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-28_23-32-23 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3034 ms
+2021-07-28_23-32-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-28_23-32-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-07-28_23-32-23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-28_23-32-23 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-28_23-32-23 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-28_23-32-23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-28_23-32-23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-28_23-32-23 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-28_23-32-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-07-28_23-32-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-07-28_23-32-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-28_23-32-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-28_23-32-23 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-28_23-32-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 8.345 seconds (JVM running for 9.447)
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start checkBusinessEligibility
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End checkBusinessEligibility
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start createConsumerBusiness Service
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End createConsumerBusinessService
+2021-07-28_23-32-23 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - End createConsumerBusiness
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - Start updateConsumerBusinessService
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.service.ConsumerServiceImpl - End updateConsumerBusinessService
+2021-07-28_23-32-23 [http-nio-8200-exec-3] INFO  c.c.p.c.c.ConsumerController - End updateConsumerBusiness

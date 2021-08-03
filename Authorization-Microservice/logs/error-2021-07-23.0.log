@@ -1,0 +1,8 @@
+2021-07-23_17-37-03 [http-nio-8400-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-07-23_17-37-03 [http-nio-8400-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-07-23_22-16-12 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2021-07-23_22-16-12 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2021-07-23_22-16-21 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2021-07-23_22-16-21 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<?> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2021-07-23_22-16-21 [main] ERROR c.c.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2021-07-23_22-16-21 [main] ERROR c.c.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null

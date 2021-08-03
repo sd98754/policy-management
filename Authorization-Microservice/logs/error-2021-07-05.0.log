@@ -1,0 +1,17 @@
+2021-07-05_11-56-13 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8400 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8400 or configure this application to listen on another port.
+
+2021-07-05_14-22-48 [http-nio-8400-exec-7] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2021-07-05_14-22-48 [http-nio-8400-exec-10] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2021-07-05_14-22-48 [http-nio-8400-exec-1] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired

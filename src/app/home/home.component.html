@@ -1,0 +1,511 @@
+<body>
+<div class="container1" align="right">
+	<form (ngSubmit)="onLogout()">
+		<button class="btn-grad" type="submit">logout</button>
+	</form>
+	<h1 align="center">Policy Administration System</h1>
+</div>
+
+<div class="container" align="center">
+		<h2>Create Consumer Business</h2>
+		<form (ngSubmit)="createConsumerBusinessSubmit(consumerBusinessForm.value)" #consumerBusinessForm="ngForm" ngNativeValidate >
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input type="text" class="form-control" name="firstname" id="firstname" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" class="form-control" name="lastname" id="lastname" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>DOB:</td>
+					<td><input type="text" class="form-control" name="dob" id="dob" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Business Name:</td>
+					<td><input type="text" class="form-control" name="businessname" id="businessname" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Pan Details:</td>
+					<td><input type="text" class="form-control" name="pandetails" id="pandetails" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" class="form-control" name="email" id="email" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td><input type="text" class="form-control" name="phone" id="phone" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Website:</td>
+					<td><input type="text" class="form-control" name="website" id="website" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Overview:</td>
+					<td><input type="text" class="form-control" name="businessoverview" id="businessoverview" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Validity:</td>
+					<td><input type="text" class="form-control" name="validity" id="validity" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Agent Name:</td>
+					<td><input type="text" class="form-control" name="agentname" id="agentname" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Agent Id:</td>
+					<td><input type="number" class="form-control" name="agentid" id="agentid" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Category:</td>
+					<td><input type="text" class="form-control" name="businesscategory" id="businesscategory" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Type:</td>
+					<td><input type="text" class="form-control" name="businesstype" id="businesstype" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Turnover:</td>
+					<td><input class="form-control" name="businessturnover" id="businessturnover" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Capital Invested:</td>
+					<td><input type="number" class="form-control" name="capitalinvested" id="capitalinvested" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Total Employees</td>
+					<td><input type="number" class="form-control" name="totalemployees" id="totalemployees" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Age:</td>
+					<td><input type="number" class="form-control" name="businessage" id="businessage" required ngModel/></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+						value="Create Consumer Business"/></td>
+				</tr>
+				<br>
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Consumer Business Status:</h5></td>
+				<td><h5>
+						{{consumerBusinessCreate}}
+					</h5></td>
+			</tr>
+		</table>
+		<br> <br>
+
+		<!-- -->
+
+	<h2>View Consumer Business</h2>
+	<form #viewConsumerBusinessForm="ngForm" (ngSubmit)="viewConsumerBusinessSubmit(viewConsumerBusinessForm.value.consumerId)" ngNativeValidate>
+		<table>
+			<tr>
+				<td>Consumer ID:</td>
+				<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel/></td>
+			</tr>
+			<br>
+		    <tr>
+				<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+					value="View Consumer Business"/></td>
+			</tr>
+			<br>
+		</table>
+	</form>
+<br> <br>
+
+		<h2>Update Consumer Business</h2>
+		<form #updateConsumerBusinessForm="ngForm" (ngSubmit)="updateConsumerBusinessSubmit(updateConsumerBusinessForm.value)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>First Name:</td>
+					<td><input class="form-control" name="firstname" id="firstname" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input class="form-control" name="lastname" id="lastname" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>DOB:</td>
+					<td><input class="form-control" name="dob" id="dob" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Name:</td>
+					<td><input class="form-control" name="businessname" id="businessname" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Pan Details:</td>
+					<td><input class="form-control" name="pandetails" id="pandetails" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input class="form-control" name="email" id="email" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td><input class="form-control" name="phone" id="phone" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Website:</td>
+					<td><input class="form-control" name="website" id="website" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Overview:</td>
+					<td><input class="form-control" name="businessoverview" id="businessoverview" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+				<tr>
+					<td>Validity:</td>
+					<td><input class="form-control" name="validity" id="validity" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Agent Name:</td>
+					<td><input class="form-control" name="agentname" id="agentname" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Agent Id:</td>
+					<td><input class="form-control" name="agentid" id="agentid" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Id:</td>
+					<td><input class="form-control" name="businessid" id="businessid" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Consumer Id:</td>
+					<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Category:</td>
+					<td><input class="form-control" name="businesscategory" id="businesscategory" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Type:</td>
+					<td><input class="form-control" name="businesstype" id="businesstype" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Turnover:</td>
+					<td><input class="form-control" name="businessturnover" id="businessturnover" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Capital Invested:</td>
+					<td><input class="form-control" name="capitalinvested" id="capitalinvested" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Total Employees</td>
+					<td><input class="form-control" name="totalemployees" id="totalemployees" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Value:</td>
+					<td><input class="form-control" name="businessvalue" id="businessvalue" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Business Age:</td>
+					<td><input class="form-control" name="businessage" id="businessage" type="number" required ngModel/></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+						value="Update Consumer Business" /></td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Consumer Business Status:</h5></td>
+				<td><h5>
+						{{consumerBusinessUpdate}}
+					</h5></td>
+			</tr>
+		</table>
+		<br> <br>
+		<h2>Create Business Property</h2>
+		<form #createBusinessPropertyForm="ngForm" (ngSubmit)="createBusinessPropertySubmit(createBusinessPropertyForm.value)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Business ID:</td>
+					<td><input class="form-control" name="businessId" id="businessId" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Insurance Type:</td>
+					<td><input class="form-control" name="insurancetype" id="insurancetype" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Property Type:</td>
+					<td><input class="form-control" name="propertytype" id="propertytype" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Building sqft:</td>
+					<td><input class="form-control" name="buildingsqft" id="buildingsqft" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Building Type:</td>
+					<td><input class="form-control" name="buildingtype" id="buildingtype" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Building Storeys:</td>
+					<td><input class="form-control" name="buildingstoreys" id="buildingstoreys" type="text" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Building Age:</td>
+					<td><input class="form-control" name="buildingage" id="buildingage" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Cost of the Asset:</td>
+					<td><input class="form-control" name="costoftheasset" id="costoftheasset" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Salvage Value:</td>
+					<td><input class="form-control" name="salvagevalue" id="salvagevalue" type="number" required ngModel/></td>
+				</tr>
+				<tr>
+					<td>Useful Life of the Asset:</td>
+					<td><input class="form-control" name="usefullifeoftheAsset"
+						id="usefullifeoftheAsset" type="number" required ngModel/></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+						value="Create Business Property" /></td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Business Property Status:</h5></td>
+				<td><h5>
+						{{businessPropertyCreate}}
+					</h5></td>
+			</tr>
+		</table>
+		<br> <br>
+
+		<h2>View Business Property</h2>
+		<form #viewBusinessPropertyForm="ngForm" (ngSubmit)="viewBusinessPropertySubmit(viewBusinessPropertyForm.value.consumerId, viewBusinessPropertyForm.value.propertyId)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Property ID:</td>
+					<td><input class="form-control" name="propertyId" id="propertyId" type="number" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+						value="View Business Property"/></td>
+				</tr>
+				<br>
+			</table>
+		</form>
+		<br> <br>
+
+		<h2>Update Business Property</h2>
+		<form  #updateBusinessPropertyForm="ngForm" (ngSubmit)="updateBusinessPropertySubmit(updateBusinessPropertyForm.value)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Property Id:</td>
+					<td><input class="form-control" name="propertyId" id="propertyId" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Business ID:</td>
+					<td><input class="form-control" name="businessId" id="businessId" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Insurance Type:</td>
+					<td><input class="form-control" name="insurancetype" id="insurancetype" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Property Type:</td>
+					<td><input class="form-control" name="propertytype" id="propertytype" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Building sqft:</td>
+					<td><input class="form-control" name="buildingsqft" id="buildingsqft" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Building Type:</td>
+					<td><input class="form-control" name="buildingtype" id="buildingtype" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Building Storeys:</td>
+					<td><input class="form-control" name="buildingstoreys" id="buildingstoreys" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Building Age:</td>
+					<td><input class="form-control" name="buildingage" id="buildingage" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Cost of the Asset:</td>
+					<td><input class="form-control" name="costoftheasset" id="costoftheasset" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Salvage Value:</td>
+					<td><input class="form-control" name="salvagevalue" id="salvagevalue" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Useful Life of the Asset:</td>
+					<td><input class="form-control" name="usefullifeoftheAsset" id="usefullifeoftheAsset" type="number" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+						value="Update Business Property" /></td>
+				</tr>
+				<br>
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Business Property Status:</h5></td>
+				<td><h5>
+						{{businessPropertyUpdate}}
+					</h5></td>
+			</tr>
+		</table>
+
+		<br> <br>
+
+		<h2>View Quotes</h2>
+		<form #getQuotesForm="ngForm" (ngSubmit)="getQuotesSubmit(getQuotesForm.value.businessValue, getQuotesForm.value.propertyValue, getQuotesForm.value.propertyType)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Business Value:</td>
+					<td><input class="form-control" name="businessValue" id="businessValue" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Property Value:</td>
+					<td><input class="form-control" name="propertyValue" id="propertyValue" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Property Type:</td>
+					<td><input class="form-control" name="propertyType" id="propertyType" type="text" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="View Quotes" class="btn btn-primary" /></td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Quotes:</h5></td>
+				<td><h5>
+						{{quotes}}
+					</h5></td>
+			</tr>
+		</table>
+		<br> <br>
+		<h2>Create Policy</h2>
+		<form #createPolicyForm="ngForm" (ngSubmit)="createPolicySubmit(createPolicyForm.value)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerid" id="consumerid" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Accepted Quotes</td>
+					<td><input class="form-control" name="acceptedquotes" id="acceptedquotes" type="text" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="Create Policy" class="btn btn-primary" />
+					</td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><h5>Policy Status:</h5></td>
+				<td><h5>
+						{{createPolicyMessage}}
+					</h5></td>
+			</tr>
+		</table>
+		<br> <br>
+		<h2>Issue Policy</h2>
+		<form #issuePolicyForm="ngForm" (ngSubmit)="issuePolicySubmit(issuePolicyForm.value)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Policy ID:</td>
+					<td><input class="form-control" name="policyid" id="policyid" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerid" id="consumerid" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Business Id:</td>
+					<td><input class="form-control" name="businessid" id="businessid" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Payment Details:</td>
+					<td><input class="form-control" name="paymentdetails" id="paymentdetails" type="text" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Acceptance Status</td>
+					<td><input class="form-control" name="acceptancestatus" id="acceptancestatus" type="text" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="Issue Policy" class="btn btn-primary" /></td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<table>
+			<tr>
+
+				<td><h5>Issue Policy Status:</h5></td>
+				<td><h5>
+						{{issuePolicyMessage}}
+					</h5></td>
+
+			</tr>
+		</table>
+		<br> <br>
+		<h2>View Policy</h2>
+		<form #viewPolicyForm="ngForm" (ngSubmit)="viewPolicySubmit(viewPolicyForm.value.consumerId, viewPolicyForm.value.policyId)" ngNativeValidate>
+			<table>
+				<tr>
+					<td>Consumer ID:</td>
+					<td><input class="form-control" name="consumerId" id="consumerId" type="number" required ngModel /></td>
+				</tr>
+				<tr>
+					<td>Policy ID:</td>
+					<td><input class="form-control" name="policyId" id="policyId" type="text" required ngModel /></td>
+				</tr>
+				<br>
+				<tr>
+				<td colspan="2" align="center"><input type="submit" class="btn btn-primary"
+					value="View Consumer Policy"/></td>
+				</tr>
+				<br>
+
+			</table>
+		</form>
+		<br> <br>
+	</div>
+</body>

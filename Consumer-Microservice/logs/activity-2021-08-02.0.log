@@ -1,0 +1,113 @@
+2021-08-02_12-04-23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-02_12-04-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on LAPTOP-3812AT6E with PID 11516 (C:\Users\devi\Downloads\backup-deploy\Consumer-Microservice\target\classes started by devi in C:\Users\devi\Downloads\backup-deploy\Consumer-Microservice)
+2021-08-02_12-04-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 5 JPA repository interfaces.
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-08-02_12-04-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-08-02_12-04-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-02_12-04-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-02_12-04-23 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3377 ms
+2021-08-02_12-04-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-02_12-04-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-02_12-04-23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-02_12-04-23 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-02_12-04-23 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-02_12-04-23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-02_12-04-23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-02_12-04-23 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-02_12-04-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-08-02_12-04-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-08-02_12-04-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-02_12-04-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-02_12-04-23 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-02_12-04-23 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 9.489 seconds (JVM running for 10.635)
+2021-08-02_12-04-23 [http-nio-8200-exec-1] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-02_12-04-23 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-02_12-04-23 [http-nio-8200-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-08-02_20-50-29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-02_20-50-29 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Starting ConsumerMicroserviceApplication using Java 15.0.2 on DESKTOP-1STHB3N with PID 4576 (D:\mfpe\Consumer-Microservice\target\classes started by dines in D:\mfpe\Consumer-Microservice)
+2021-08-02_20-50-29 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2050edd9-2e16-35ad-9961-793876844461
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.consumer.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8200 (http)
+2021-08-02_20-50-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8200"]
+2021-08-02_20-50-29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-02_20-50-29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-02_20-50-29 [restartedMain] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring embedded WebApplicationContext
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2191 ms
+2021-08-02_20-50-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-02_20-50-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-02_20-50-29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-02_20-50-29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-02_20-50-29 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-02_20-50-29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-02_20-50-29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-02_20-50-29 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-02_20-50-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8200"]
+2021-08-02_20-50-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8200 (http) with context path '/consumer-api'
+2021-08-02_20-50-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-02_20-50-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-02_20-50-29 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-02_20-50-29 [restartedMain] INFO  c.c.p.c.ConsumerMicroserviceApplication - Started ConsumerMicroserviceApplication in 6.336 seconds (JVM running for 7.133)
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  o.a.c.c.C.[.[.[/consumer-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - Start createConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start checkBusinessEligibility
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End checkBusinessEligibility
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start createConsumerBusiness Service
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End createConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - End createConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-4] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-5] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.c.ConsumerController - Start updateConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - Start updateConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - Start CalBusinessValue
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - End CalBusinessValue
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - End updateConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.c.ConsumerController - End updateConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-10] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - Start viewConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-1] INFO  c.c.p.c.service.ConsumerServiceImpl - End viewConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-1] INFO  c.c.p.c.c.ConsumerController - End viewConsumerBusiness
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.c.ConsumerController - Start createBusinessProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - Start checkPropertyEligibility
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - End checkPropertyEligibility
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - Start createConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - Start calPropertyValue
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - End calPropertyValue
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.service.ConsumerServiceImpl - End createConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-7] INFO  c.c.p.c.c.ConsumerController - End createBusinessProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.c.ConsumerController - Start updateBusinessProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - Start updateBusinessPropertyService
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - Start calPropertyValue
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - End calPropertyValue
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.service.ConsumerServiceImpl - End updateBusinessPropertyService
+2021-08-02_20-50-29 [http-nio-8200-exec-8] INFO  c.c.p.c.c.ConsumerController - End updateBusinessProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-10] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-10] INFO  c.c.p.c.service.ConsumerServiceImpl - Start viewConsumerPropertyService
+2021-08-02_20-50-29 [http-nio-8200-exec-10] INFO  c.c.p.c.service.ConsumerServiceImpl - End viewConsumerPropertyService
+2021-08-02_20-50-29 [http-nio-8200-exec-10] INFO  c.c.p.c.c.ConsumerController - End viewConsumerProperty
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - Start viewConsumerBusinessByPolicy
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - Start viewConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.service.ConsumerServiceImpl - End viewConsumerBusinessService
+2021-08-02_20-50-29 [http-nio-8200-exec-2] INFO  c.c.p.c.c.ConsumerController - End viewConsumerBusinessByPolicy

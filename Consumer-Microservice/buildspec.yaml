@@ -1,0 +1,31 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  pre_build:
+    commands:
+    - echo Logging in to Amazon ECR...
+    - aws --version
+    - $(aws ecr get-login --region us-east-2 --no-include-email)
+    
+  build:
+    commands:
+    - echo Build started on `date`
+    - echo Building Java
+    - cd Consumer-Microservice
+    - mvn compile
+    - mvn package -DskipTests
+    - echo Building the docker image..
+    - docker build -t service/consumer .
+    - docker tag service/consumer 222512976514.dkr.ecr.us-east-2.amazonaws.com/pas-pod4-registry:consumer
+  post_build:
+    commands:
+    - echo Build completed on `date`
+    - echo Pushing docker image
+    - docker push 222512976514.dkr.ecr.us-east-2.amazonaws.com/pas-pod4-registry:consumer
+    - echo Writting definition file
+    - printf '[{"name":"consumer-container","imageUri":"%s"}]' 222512976514.dkr.ecr.us-east-2.amazonaws.com/pas-pod4-registry:consumer > imagedefinitions.json
+artifacts:
+  files:
+  - Consumer-Microservice/imagedefinitions.json

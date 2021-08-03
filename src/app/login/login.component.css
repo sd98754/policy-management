@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+Body {  
+    padding: 80px;
+    font-family: Calibri, Helvetica, sans-serif;
+    background: rgb(166,60,149);
+    background: linear-gradient(90deg, rgba(166,60,149,1) 0%, rgba(148,223,233,1) 100%);  }  
+  button {   
+         background-color: #dbdbdf;   
+         width: 100%;  
+          color: black;  
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer;   
+           }   
+    h1{
+        align-self: center;
+
+    }
+    p{
+        align-self: center;
+    }
+   form { 
+        
+        width: 350px;
+           
+      }   
+      label{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+   input[type=text], input[type=password] {   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+           font-family: Bradley Hand, cursive;
+          box-sizing: border-box;   
+      }  
+   button:hover {   
+          opacity: 0.7;   
+      }   
+   .container1{
+       padding: 25px;
+       
+   }
+       
+       
+   .container {   
+        width: 450px;
+          padding: 25px;   
+          border: 3px solid #f1f1f1;
+          margin: auto; 
+          
+          align-self: center;
+      }   
+  footer
+  {
+    background: rgb(166,60,149);
+    background: linear-gradient(90deg, rgba(166,60,149,1) 0%, rgba(148,223,233,1) 100%);  
+      
+  }
+  
+  .errorcontainer{
+    color: red;
+  }

@@ -1,0 +1,21 @@
+export interface PolicyDetailsResponse
+{
+    consumerid:number;
+    policyid:String;
+    property_type:String;
+    consumer_type:String;
+    assured_sum:String;
+    tenure:String;
+    business_value:number;
+    property_value:number;
+    base_location:String;
+    type:String;
+    businessid:number;
+    paymentdetails:String;
+    acceptancestatus:String;
+    policystatus:String;
+    effectivedate:String;
+    covered_sum:String;
+    duration:String;
+    acceptedquote:string;
+}

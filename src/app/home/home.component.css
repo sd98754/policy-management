@@ -1,0 +1,28 @@
+.container
+{
+    
+    padding: 20px;
+}
+h1{
+    align-self: center;
+}
+.container1
+{
+    
+    padding: 20px;
+}
+body{
+    background: rgba(148,223,233,1);
+    background: linear-gradient(90deg, rgba(148,223,233,1) 0%,  rgba(166,60,149,1)100%);
+}
+.btn-grad {background-image: linear-gradient(to right, #f12bf5 0%, #98dfe0  51%, #708cda  100%)}
+.btn-grad {
+   
+   padding: 5px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   border-radius: 10px;
+   
+ }
+  

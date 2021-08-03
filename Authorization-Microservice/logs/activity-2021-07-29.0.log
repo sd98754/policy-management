@@ -1,0 +1,175 @@
+2021-07-29_16-35-22 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 15.0.2 on DESKTOP-1STHB3N with PID 1360 (D:\back-up-mine-j\Authorization-Microservice\target\classes started by dines in D:\back-up-mine-j\Authorization-Microservice)
+2021-07-29_16-35-22 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6ec0f09-868a-3b39-8b39-db24684a6ae7
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-07-29_16-35-22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-07-29_16-35-22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-29_16-35-22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-29_16-35-22 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2214 ms
+2021-07-29_16-35-22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-29_16-35-22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-07-29_16-35-22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-29_16-35-22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-29_16-35-22 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-29_16-35-22 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-29_16-35-22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-29_16-35-22 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b4e0357, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cbb79eb, org.springframework.security.web.header.HeaderWriterFilter@fc7f053, org.springframework.security.web.authentication.logout.LogoutFilter@525ebf6, com.cts.authorization.config.JwtRequestFilter@3ee269fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72c6ccd1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f0d772b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61890b2, org.springframework.security.web.session.SessionManagementFilter@4c607880, org.springframework.security.web.access.ExceptionTranslationFilter@1091daf8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ea76fc5]
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-29_16-35-22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-07-29_16-35-22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-07-29_16-35-22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-29_16-35-22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-29_16-35-22 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-29_16-35-22 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 6.186 seconds (JVM running for 6.904)
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_16-35-22 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjc1NTg3MjMsImlhdCI6MTYyNzU1NjkyM30.exO4XIxYQpq4L8OrQzDDfu-Utd_AOzHyMPFwiEGTDTHg02GQOkDOYGCEIgFQI_Y1XarXbgkV8fM9gT5_R79k1A
+2021-07-29_17-17-20 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 15.0.2 on DESKTOP-1STHB3N with PID 12432 (D:\back-up-mine-j\Authorization-Microservice\target\classes started by dines in D:\back-up-mine-j\Authorization-Microservice)
+2021-07-29_17-17-20 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6ec0f09-868a-3b39-8b39-db24684a6ae7
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-07-29_17-17-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-07-29_17-17-20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-29_17-17-20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-29_17-17-20 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2313 ms
+2021-07-29_17-17-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-29_17-17-20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-07-29_17-17-20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-29_17-17-20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-29_17-17-20 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-29_17-17-20 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-29_17-17-20 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-29_17-17-20 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49325698, org.springframework.security.web.context.SecurityContextPersistenceFilter@3702fa51, org.springframework.security.web.header.HeaderWriterFilter@2e9c8386, org.springframework.security.web.authentication.logout.LogoutFilter@30a08956, com.cts.authorization.config.JwtRequestFilter@b1f2e6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68dbb3c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e181386, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19477778, org.springframework.security.web.session.SessionManagementFilter@52f06068, org.springframework.security.web.access.ExceptionTranslationFilter@71e77bb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b06591f]
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-29_17-17-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-07-29_17-17-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-07-29_17-17-20 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-29_17-17-20 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-29_17-17-20 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-29_17-17-20 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 6.225 seconds (JVM running for 6.919)
+2021-07-29_17-24-29 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 15.0.2 on DESKTOP-1STHB3N with PID 3972 (D:\back-up-mine-j\Authorization-Microservice\target\classes started by dines in D:\back-up-mine-j\Authorization-Microservice)
+2021-07-29_17-24-29 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6ec0f09-868a-3b39-8b39-db24684a6ae7
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-07-29_17-24-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-07-29_17-24-29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-29_17-24-29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-07-29_17-24-29 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2150 ms
+2021-07-29_17-24-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-29_17-24-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-07-29_17-24-29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-29_17-24-29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-07-29_17-24-29 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-29_17-24-29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-29_17-24-29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-07-29_17-24-29 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23e764af, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eb902b6, org.springframework.security.web.header.HeaderWriterFilter@6e011c50, org.springframework.security.web.authentication.logout.LogoutFilter@7d3688, com.cts.authorization.config.JwtRequestFilter@174bbb3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@197f71fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38fad59b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1392b1c, org.springframework.security.web.session.SessionManagementFilter@68dbb3c2, org.springframework.security.web.access.ExceptionTranslationFilter@5b616ffe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@219521d8]
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-29_17-24-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-07-29_17-24-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-07-29_17-24-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-07-29_17-24-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-07-29_17-24-29 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-07-29_17-24-29 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 5.79 seconds (JVM running for 6.553)
+2021-07-29_17-24-29 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29_17-24-29 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-29_17-24-29 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-07-29_17-24-29 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-07-29_17-24-29 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
